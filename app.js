@@ -36,3 +36,5 @@ function resetNumber() {
     //reset number back to zero when pressed.
     counterNumber.innerHTML = 0;
 }
+
+//ready up on how to use clearInterval() and setInterval()
