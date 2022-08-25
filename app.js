@@ -5,36 +5,36 @@
 -create a function that resets the number to zero */
 
 //button variables
-const minusButton = document.getElementById('minus-one');
-const resetButton = document.getElementById('reset');
-const addButton = document.getElementById('add-one');
+const minusButton = document.getElementById("minus-one");
+const resetButton = document.getElementById("reset");
+const addButton = document.getElementById("add-one");
 
 //number variables
-let counterNumber = document.getElementById('number');
+let counterNumber = document.getElementById("number");
 let number = 0;
 
 console.log(counterNumber);
 console.log(number);
 
-minusButton.addEventListener('click', minusOne);
+minusButton.addEventListener("click", minusOne);
 
-addButton.addEventListener('click', addOne);
+addButton.addEventListener("click", addOne);
 
-resetButton.addEventListener('click', resetNumber);
+resetButton.addEventListener("click", resetNumber);
 
 function addOne() {
-    //when button is pressed, add 1 to the number.
-    counterNumber.innerHTML = number++;
+	//when button is pressed, add 1 to the number.
+	counterNumber.innerHTML = number++;
 }
 
 function minusOne() {
-    //when button is pressed, minus 1 from the number.
-    counterNumber.innerHTML = number--;
+	//when button is pressed, minus 1 from the number.
+	counterNumber.innerHTML = number--;
 }
 
 function resetNumber() {
-    //reset number back to zero when pressed.
-    counterNumber.innerHTML = 0;
+	//reset number back to zero when pressed.
+	counterNumber.innerHTML = 0;
 }
 
 //ready up on how to use clearInterval() and setInterval()
