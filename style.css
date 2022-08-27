@@ -7,4 +7,36 @@ body {
 	justify-content: center;
 	margin: 0 auto;
 	min-height: 100vh;
+	color: rgb(51, 212, 204);
+}
+
+h1 {
+	font-family: 'Baloo 2', cursive;
+	text-decoration: underline;
+}
+
+p {
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 100px;
+	margin: 0;
+}
+
+button {
+	font-family: 'Baloo 2', cursive;
+	font-weight: bold;
+}
+
+a {
+	font-family: 'Black Han Sans', sans-serif;
+	text-decoration: none;
+	margin-top: 50px;
+	color: rgb(51, 212, 204);
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+a:visited {
+	color: rgb(51, 212, 204);
 }
