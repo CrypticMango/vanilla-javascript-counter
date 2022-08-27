@@ -35,7 +35,8 @@ function minusOne() {
 
 function resetNumber() {
 	//reset number back to zero when pressed.
-	document.getElementById("number").innerHTML = 0;
+	number = 0;
+	document.getElementById("number").innerHTML = number;
 }
 
 //ready up on how to use clearInterval() and setInterval()
