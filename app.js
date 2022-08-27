@@ -1,9 +1,3 @@
-//alert("hello bruddah");
-
-/* -create function that adds one to the number
--create function that minuses one from the number
--create a function that resets the number to zero */
-
 //button variables
 const minusButton = document.getElementById("minus-one");
 const resetButton = document.getElementById("reset");
@@ -11,6 +5,7 @@ const addButton = document.getElementById("add-one");
 
 //number variables
 let number = 0;
+
 document.getElementById("number").innerHTML = number;
 
 console.log(number);
@@ -34,9 +29,7 @@ function minusOne() {
 }
 
 function resetNumber() {
-	//reset number back to zero when pressed.
+	//reset number back to zero when button is pressed.
 	number = 0;
 	document.getElementById("number").innerHTML = number;
 }
-
-//ready up on how to use clearInterval() and setInterval()
